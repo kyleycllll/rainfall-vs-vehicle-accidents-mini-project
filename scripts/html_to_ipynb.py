@@ -15,8 +15,8 @@ import nbformat
 from bs4 import BeautifulSoup
 from markdownify import markdownify as html_to_md
 
-SOURCE_HTML = Path(__file__).resolve().parent.parent / "source" / "SDAB_Group1.html"
-OUTPUT_IPYNB = Path(__file__).resolve().parent.parent / "SDAB_Group1.ipynb"
+SOURCE_HTML = Path(__file__).resolve().parent.parent / "source" / "monthly_rainfall_vehicle_accidents.html"
+OUTPUT_IPYNB = Path(__file__).resolve().parent.parent / "monthly_rainfall_vehicle_accidents.ipynb"
 
 
 def clean_markdown_html(md_div):
